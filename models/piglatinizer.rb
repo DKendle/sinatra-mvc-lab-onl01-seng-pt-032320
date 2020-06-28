@@ -1,13 +1,7 @@
 class PigLatinizer
-    attr_reader :input
-
-    def initialize
-  
-    end
 
     def piglatinize(input)
-      arr = input.split(//)
-      if arr.first # is a vowel
+      if arr.first = # is a vowel
         #add "way" to the end of the word
       else 
         ## take the first letter of the array
